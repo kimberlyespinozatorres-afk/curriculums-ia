@@ -96,7 +96,12 @@ Por favor, genera un "Reporte de Evaluación y Ajuste de Candidatos" estructurad
 ### 4. RECOMENDACIÓN FINAL DE LA ORH
 Dictamen técnico y objetivo sobre si el candidato debe avanzar a la siguiente fase del proceso, justificando la decisión de manera profesional conforme a la normativa UCR.
 
-Genera un archivo formal en Excel con una estructura y diseño plenamente institucionales, siguiendo una paleta de colores corporativa (azul oscuro de la UCR, grises tenues y alertas en tonos pastel) ideal para la gestión de la Oficina de Recursos Humanos."""
+### 5. CREACIÓN DEL ARCHIVO EXCEL
+Por favor, realiza el análisis correspondiente y procesa los datos internamente. En lugar de mostrarme código de programación (como Python, Streamlit o XlsxWriter) o estructuras de texto largas, genera de forma directa el archivo descargable de Excel utilizando la herramienta de creación de archivos de la plataforma.
+El archivo de Excel debe contar con un diseño plenamente institucional y profesional, aplicando:
+La paleta de colores corporativa de la UCR (azul oscuro para encabezados, grises tenues para filas alternas y alertas en tonos pastel para los criterios no cumplidos).
+Formato de celdas con ajuste de texto automático y fuentes limpias (Arial o Calibri).
+Estructura clara con títulos institucionales en las primeras filas, seguidos de la Matriz de Calificación Detallada (Criterio, Requisito, Perfil del Candidato, Nivel de Cumplimiento, Nota y Justificación)."""
     st.warning("⚠️ Cargue primero los documentos en la página principal para obtener un prompt personalizado. Este es el prompt base estándar.")
 
 # Caja copiable
