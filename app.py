@@ -97,11 +97,26 @@ Por favor, genera un "Reporte de Evaluación y Ajuste de Candidatos" estructurad
 Dictamen técnico y objetivo sobre si el candidato debe avanzar a la siguiente fase del proceso, justificando la decisión de manera profesional conforme a la normativa UCR.
 
 ### 5. CREACIÓN DEL ARCHIVO EXCEL
-Por favor, realiza el análisis correspondiente y procesa los datos internamente. En lugar de mostrarme código de programación (como Python, Streamlit o XlsxWriter) o estructuras de texto largas, genera de forma directa el archivo descargable de Excel utilizando la herramienta de creación de archivos de la plataforma.
-El archivo de Excel debe contar con un diseño plenamente institucional y profesional, aplicando:
-La paleta de colores corporativa de la UCR (azul oscuro para encabezados, grises tenues para filas alternas y alertas en tonos pastel para los criterios no cumplidos).
-Formato de celdas con ajuste de texto automático y fuentes limpias (Arial o Calibri).
-Estructura clara con títulos institucionales en las primeras filas, seguidos de la Matriz de Calificación Detallada (Criterio, Requisito, Perfil del Candidato, Nivel de Cumplimiento, Nota y Justificación)."""
+Actúa como un Consultor Experto en Reclutamiento de la Oficina de Recursos Humanos de la UCR. >
+Necesito que analices los datos de los candidatos adjuntos en este chat y generes un archivo de Excel descargable (.xlsx) con el "Reporte de Evaluación y Ajuste".
+
+INSTRUCCIONES OBLIGATORIAS DE EJECUCIÓN:
+
+No me muestres código de programación (como bloques de código de Python, Streamlit o XlsxWriter).
+
+No te limites a dibujar una tabla de texto en la respuesta.
+
+Usa tu entorno de ejecución interna de Python para programar, compilar y generar el archivo físico de Excel de forma directa utilizando la herramienta de descarga de la plataforma.
+
+REQUISITOS DE DISEÑO INSTITUCIONAL (UCR):
+
+Colores: Aplica una paleta corporativa. Diseña los encabezados principales con fondo Azul Oscuro (puedes usar el Hex #042d62) y texto blanco en negrita. Usa filas alternas en gris muy tenue para facilitar la lectura. Si hay criterios "No Cumplidos", resalta esa celda específica con un tono rojo/rosado pastel.
+
+Formato: Configura las celdas con ajuste de texto automático (wrap_text=True) para que las justificaciones largas no se corten. Usa una fuente limpia como Calibri o Arial.
+
+Estructura del Archivo: >   * Filas iniciales: Título institucional ("Reporte de Evaluación de la ORH") y datos del candidato (Nombre, Puesto, Calificación).
+
+Tabla principal: Columnas para Criterio de Evaluación, Requisito del Puesto, Perfil del Candidato, Nivel de Cumplimiento, Nota y Justificación."""
     st.warning("⚠️ Cargue primero los documentos en la página principal para obtener un prompt personalizado. Este es el prompt base estándar.")
 
 # Caja copiable
