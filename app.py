@@ -96,8 +96,7 @@ Por favor, genera un "Reporte de Evaluación y Ajuste de Candidatos" estructurad
 ### 4. RECOMENDACIÓN FINAL DE LA ORH
 Dictamen técnico y objetivo sobre si el candidato debe avanzar a la siguiente fase del proceso, justificando la decisión de manera profesional conforme a la normativa UCR.
 
----
-[Adjunte el Perfil del Puesto y el CV directamente en este chat de Gemini]"""
+Genera un archivo formal en Excel con una estructura y diseño plenamente institucionales, siguiendo una paleta de colores corporativa (azul oscuro de la UCR, grises tenues y alertas en tonos pastel) ideal para la gestión de la Oficina de Recursos Humanos."""
     st.warning("⚠️ Cargue primero los documentos en la página principal para obtener un prompt personalizado. Este es el prompt base estándar.")
 
 # Caja copiable
